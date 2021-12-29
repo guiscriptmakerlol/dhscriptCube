@@ -1,0 +1,111 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local script1 = Instance.new("TextButton")
+local script2 = Instance.new("TextButton")
+local script3 = Instance.new("TextButton")
+local script4 = Instance.new("TextButton")
+local script5 = Instance.new("TextButton")
+local script6 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+main.Position = UDim2.new(0.635426402, 0, 0.375690609, 0)
+main.Size = UDim2.new(0, 375, 0, 240)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(33, 29, 29)
+label.Size = UDim2.new(0, 375, 0, 39)
+label.Font = Enum.Font.SourceSans
+label.Text = "Cube's GUI | v1"
+label.TextColor3 = Color3.fromRGB(255, 255, 255)
+label.TextSize = 14.000
+
+script1.Name = "script1"
+script1.Parent = main
+script1.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+script1.Position = UDim2.new(0, 0, 0.174999997, 0)
+script1.Size = UDim2.new(0, 142, 0, 43)
+script1.Font = Enum.Font.SourceSans
+script1.Text = "Aimbot (no name)"
+script1.TextColor3 = Color3.fromRGB(0, 0, 0)
+script1.TextSize = 14.000
+script1.TextStrokeColor3 = Color3.fromRGB(98, 98, 98)
+script1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
+end)
+
+script2.Name = "script2"
+script2.Parent = main
+script2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+script2.Position = UDim2.new(0, 0, 0.425000012, 0)
+script2.Size = UDim2.new(0, 142, 0, 46)
+script2.Font = Enum.Font.SourceSans
+script2.Text = "Boxware aimlock"
+script2.TextColor3 = Color3.fromRGB(0, 0, 0)
+script2.TextSize = 14.000
+script2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/crypthook/some-shit-script-crack/main/boxware"))()
+end)
+
+script3.Name = "script3"
+script3.Parent = main
+script3.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+script3.Position = UDim2.new(0, 0, 0.704166651, 0)
+script3.Size = UDim2.new(0, 142, 0, 47)
+script3.Font = Enum.Font.SourceSans
+script3.Text = "Kittenassist.V2 cracked"
+script3.TextColor3 = Color3.fromRGB(0, 0, 0)
+script3.TextSize = 14.000
+script3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/eba...) 
+end)
+
+script4.Name = "script4"
+script4.Parent = main
+script4.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+script4.Position = UDim2.new(0.642666638, 0, 0.162499994, 0)
+script4.Size = UDim2.new(0, 134, 0, 46)
+script4.Font = Enum.Font.SourceSans
+script4.Text = "raycodex"
+script4.TextColor3 = Color3.fromRGB(0, 0, 0)
+script4.TextSize = 14.000
+script4.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+script5.Name = "script5"
+script5.Parent = main
+script5.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+script5.Position = UDim2.new(0.642666638, 0, 0.425000012, 0)
+script5.Size = UDim2.new(0, 134, 0, 44)
+script5.Font = Enum.Font.SourceSans
+script5.Text = "swagmode"
+script5.TextColor3 = Color3.fromRGB(0, 0, 0)
+script5.TextSize = 14.000
+script5.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+script6.Name = "script6"
+script6.Parent = main
+script6.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+script6.Position = UDim2.new(0.642666638, 0, 0.704166651, 0)
+script6.Size = UDim2.new(0, 134, 0, 47)
+script6.Font = Enum.Font.SourceSans
+script6.Text = "Hydraware aimlock"
+script6.TextColor3 = Color3.fromRGB(0, 0, 0)
+script6.TextSize = 14.000
+script6.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/freshlocaliar2mgiadawdpaklsd/Fortnite-Eating/main/HydrawareRelease.txt", true))()
+end)
